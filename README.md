@@ -1,79 +1,103 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<p align="center">
+  <a href="http://reactnative.dev/" target="blank"><img src="https://reactnative.dev/img/header_logo.svg" alt="React Logo" width="180" /></a>
+</p>
 
-# Getting Started
+<h1 align="center">React Native Template</h1>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p align="center">
+  Repositorio base con configuraciones necesarias para inciar un nuevo proyecto basado en react native, incluye navegación, gestión de estado global, fuentes, iconos y bibliotecas útiles para el desarrollo
+</p>
 
-## Step 1: Start the Metro Server
+<p align="center">
+  <a href="https://nodejs.org/docs/latest-v20.x/api/index.html"><img src="https://img.shields.io/badge/Node-20.x-green.svg" alt="node"/></a>
+    <img src="https://img.shields.io/badge/NPM-10.x-red.svg" alt="npm"/>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/Typescript-5.x-blue.svg" alt="typescript"/></a>
+   <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-0.73.x-blue.svg" alt="typescript"/></a>
+    <a href="https://es.react.dev/"><img src="https://img.shields.io/badge/React-18.x-blue.svg" alt="typescript"/></a>
+</p>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+##  Motivación
+Cada que iniciaba un proyecto nuevo en react native me veía en la necesidad de instalar y configurar todas estas dependiencias desde cero. En este tiempo me he dado cuenta de que estas dependecias y configuraciones estan presentes en el 85% de los proyectos que he trabajo, es por eso que he creado esta plantilla con todas las configuraciones e instalaciones básicas como punto de inicio.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Esta plantilla no contine ningún tipo de arquitectura y presenta una estructura de carpetas flexible que permite al desarrollador adecuarlo a su proyecto.
+
+Tene funcionalidad dummy como el inicio de sesion y las llamadas el servidor, pero son solo para ahorrar tiempo en ese trabajo. La navegación ya contiene el flujo correcto para trabajar con un inicio de sesión si así se requiere.
+
+Estaré actualizando este repositorio, ya sea con las nuevas versiones de react native o de las dependiencia, así tambien como nuevas características que puedan ser útiles.
+
+## ¿Qué se incluye en esta plantilla?
+
+1. Navegación basada en bottom tab bar y stack anidados.
+2. Fuente Roboto personalizada instala.
+3. Integración básica de redux toolkit con persistencia.
+4. Flujo básico de autenticación con estado global.
+5. Iconos
+6. Configuración básica de axios para permitir enviar un token como método de autenticación.
+7. Reactotron como método de depuración de llamados al backend.
+8. Comandos para generar archivo APK en android con build autoincremental.
+9. Comandos personalizados para testing
+10. Configuración básica para crear build de producción.
+
+
+
+##  Bibliotecas
+
+| Biblioteca           | Categoría            | Versión | Descripción                                    |
+| ----------------- | -------------------- | ------- | ---------------------------------------------- |
+| React Native      | Framework      | v0.73   | Framework móvil       |
+| React             | UI          | v18.2     | Biblioteca UI     |
+| TypeScript        | Lenguaje             | v5.0      | Tipado                         |
+| Redux Toolkit       | Estado global             | v2.2      | Gestión de estado global                         |
+| React Navigation  | Navegación           | v6.1      | Navegación mediante stacks, tabs y drawers |
+| RN Reanimated     | Animaciones           | v3.7      | Animaciones y transiciones            |
+| AsyncStorage      | Persistencia          | v1.22      | Guardado local                             |
+| Axios          | Cliente REST         | v1.6      | Comunicación con el backend                  |
+| Reactotron RN     | Inspector/Depuración   | v5.1      | Depuración de llamados al backend                                |
+| Jest              | Testing          | v29.6     | Estándar para aplicaciones javascript               |
+| Dayjs          | Fechas         | v1.11      | Biblioteca para el manejo de fechas                        |
+| FlashList         | FlatList replacement | v1.6      | A performant drop-in replacement for FlatList  |
+
+
+## Fuentes de texto
+Para agregar una nueva fuente es necesario agregarla a la carpeta `/android/app/src/main/assets/fonts`
+Es importante usar el mismo nombre del archivo por ejemplo, si el archivo se llama **Montserrat-Regular** se deberá usar de la misma manera de modo que quede así:
+
+`fontFamily: 'Montserrat-Regular'`
+
+ o así
+
+`fontFamily: 'Montserrat-Bold'`
+
+No usar el modificador `fontWeight: 'bold'` esto hace que la fuente no funcione, en caso de querer un tamaño bold, usar la fuente correspondiente.
+
+## Building
+
+Para generar un apk de producción usar el siguiente comando:
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+npm run build:apk
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+Para generar un bundle de android para producción usar el siguiente comando:
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+npm run build:bundle
 ```
+Ambos generan un bundle autoincrementable con el numero de versión diferente al generado en el pasado.
 
-### For iOS
+## Testing
+
+Para ejecutar los casos de pruebas usar el siguiente comando:
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+npm run test
 ```
+Los casos de prueba se encuentran en la carpeta **`__test__`**
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Linting
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Para formatear el codigo ejecutar el comando:
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+```bash
+npm run lint
+```
