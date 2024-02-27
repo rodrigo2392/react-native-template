@@ -5,10 +5,13 @@ import {
   createNativeStackNavigator,
 } from '@react-navigation/native-stack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {useSelector} from 'react-redux';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomeScreen from '../views/app/Home';
 import AboutScreen from '../views/app/About';
 import SettingsScreen from '../views/app/Settings';
+import {colors} from '../theme';
+import {selectTheme} from '../redux/slices/app.slice';
 
 export type HomeStackParamList = {
   Home: undefined;
@@ -38,13 +41,23 @@ function TabBarIcon({focused, color, size, route}: any) {
 }
 
 function BottomNavigation() {
+  const currentTheme = useSelector(selectTheme);
   return (
     <Tab.Navigator
       screenOptions={({route}) => ({
         tabBarIcon: ({focused, color, size}) =>
           TabBarIcon({focused, color, size, route}),
-        tabBarActiveTintColor: 'tomato',
-        tabBarInactiveTintColor: 'gray',
+        tabBarShowLabel: false,
+        tabBarActiveTintColor: colors[currentTheme].active,
+        tabBarInactiveTintColor: colors[currentTheme].inactive,
+        tabBarActiveBackgroundColor: colors[currentTheme].background,
+        tabBarInactiveBackgroundColor: colors[currentTheme].background,
+        headerStyle: {
+          backgroundColor: colors[currentTheme].background,
+        },
+        headerTitleStyle: {
+          color: colors[currentTheme].text,
+        },
       })}>
       <Tab.Screen
         name="Home"

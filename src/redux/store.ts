@@ -1,17 +1,19 @@
 import {configureStore} from '@reduxjs/toolkit';
 import AuthReducer from '../redux/slices/auth.slice';
+import AppReducer from '../redux/slices/app.slice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {combineReducers} from 'redux';
 import {persistReducer} from 'redux-persist';
 
 const reducers = combineReducers({
-  userAuth: AuthReducer,
+  authState: AuthReducer,
+  appState: AppReducer,
 });
 
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['userAuth'],
+  whitelist: ['authState', 'appState'],
   blacklist: [],
 };
 

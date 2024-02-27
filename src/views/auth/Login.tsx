@@ -1,8 +1,9 @@
 import React from 'react';
-import {Button} from 'react-native';
 import {useDispatch} from 'react-redux';
 import {setSignIn} from '../../redux/slices/auth.slice';
 import Container from '../../components/Container';
+import Text from '../../components/Text';
+import Button from '../../components/Button';
 
 export default function HomeScreen() {
   const dispatch = useDispatch();
@@ -12,7 +13,9 @@ export default function HomeScreen() {
   };
   return (
     <Container>
-      <Button title="Presiona para entrar" onPress={() => doLogin()} />
+      <Button onPress={() => doLogin()}>
+        <Text buttonText>Presiona para entrar</Text>
+      </Button>
     </Container>
   );
 }

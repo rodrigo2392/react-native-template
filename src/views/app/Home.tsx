@@ -1,19 +1,19 @@
 import * as React from 'react';
 import dayjs from 'dayjs';
+import {useDispatch} from 'react-redux';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import Text from '../../components/Text';
-import 'dayjs/locale/es-mx';
 import Container from '../../components/Container';
-import {Button} from 'react-native';
 import {setSignOut} from '../../redux/slices/auth.slice';
-import {useDispatch} from 'react-redux';
+import Button from '../../components/Button';
+import 'dayjs/locale/es-mx';
+
 dayjs.extend(relativeTime);
 dayjs.locale('es-mx');
 
 export default function HomeScreen() {
   const dispatch = useDispatch();
   const doLogout = () => {
-    console.log('test');
     dispatch(setSignOut());
   };
   return (
@@ -22,7 +22,10 @@ export default function HomeScreen() {
         Faltan {dayjs(`${new Date().getFullYear()}-12-25`).fromNow(true)} para
         navidad
       </Text>
-      <Button title="Cerrar sesión" onPress={() => doLogout()} />
+
+      <Button onPress={() => doLogout()}>
+        <Text buttonText>Cerrar sesión</Text>
+      </Button>
     </Container>
   );
 }
