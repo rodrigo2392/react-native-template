@@ -37,6 +37,7 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 8. Comandos para generar archivo APK en android con build autoincremental.
 9. Comandos personalizados para testing
 10. Configuración básica para crear build de producción.
+11. Selector de tema (oscuro/claro) basado en un estado local persistente.
 
 
 
@@ -51,11 +52,12 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 | React Navigation  | Navegación           | v6.1      | Navegación mediante stacks, tabs y drawers |
 | RN Reanimated     | Animaciones           | v3.7      | Animaciones y transiciones            |
 | AsyncStorage      | Persistencia          | v1.22      | Guardado local                             |
-| Axios          | Cliente REST         | v1.6      | Comunicación con el backend                  |
+| Axios          | Peticiones HTTP        | v1.6      | Comunicación con el backend                  |
+| React Query          | Cliente REST         | v1.6      | Gestor de llamadas asíncronas al servidor               |
 | Reactotron RN     | Inspector/Depuración   | v5.1      | Depuración de llamados al backend                                |
 | Jest              | Testing          | v29.6     | Estándar para aplicaciones javascript               |
 | Dayjs          | Fechas         | v1.11      | Biblioteca para el manejo de fechas                        |
-| FlashList         | FlatList replacement | v1.6      | A performant drop-in replacement for FlatList  |
+| FlashList         | Reemplazo de flatList | v1.6      | A performant drop-in replacement for FlatList  |
 
 
 ## Fuentes de texto
