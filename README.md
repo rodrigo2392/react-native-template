@@ -21,7 +21,7 @@
 - [Motivación](#motivación)
 - [¿Qué se incluye en esta plantilla?](#qué-se-incluye-en-esta-plantilla)
 - [Bibliotecas](#bibliotecas)
-- [Fuentes de textot](#fuentes-de-texto)
+- [Fuentes de texto](#fuentes-de-texto)
 - [Building](#building)
 - [Depuración](#depuración)
 - [Pruebas](#pruebas)
@@ -99,7 +99,8 @@ npm run build:bundle
 ```
 Ambos generan un bundle autoincrementable con el numero de versión diferente al generado en el pasado.
 
-##Depuración
+## Depuración
+
 Para hacer depuración de llamados al servidor, mensajes en consola o errores en general el proyecto tiene previamente configurado reactotron, sólo debes decargar el ejecutable desde su repositorio y automáticamente se conectará a la aplicación.
 [Decárgalo haciendo click aquí.](http://https://github.com/infinitered/reactotron/releases?q=reactotron-app&expanded=true "Decárgalo haciendo click aquí.")
 
