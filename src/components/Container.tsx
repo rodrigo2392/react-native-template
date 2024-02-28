@@ -1,5 +1,5 @@
 import React, {ReactElement} from 'react';
-import {View, StyleSheet, Dimensions, ScrollView} from 'react-native';
+import {View, StyleSheet, Dimensions, ScrollView, Platform} from 'react-native';
 import {colors} from '../theme';
 import {useSelector} from 'react-redux';
 import {selectTheme} from '../redux/slices/app.slice';
@@ -21,7 +21,7 @@ export default function Container({
       paddingRight: width * 0.05,
       height,
       backgroundColor: colors[currentTheme].background,
-      paddingTop: 40,
+      paddingTop: Platform.OS === 'ios' ? 80 : 40,
     },
     scrollContainer: {
       height,
