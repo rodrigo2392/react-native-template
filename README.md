@@ -16,6 +16,18 @@
     <a href="https://es.react.dev/"><img src="https://img.shields.io/badge/React-18.x-blue.svg" alt="typescript"/></a>
 </p>
 
+## Tabla de contenido
+
+- [Motivación](#motivación)
+- [¿Qué se incluye en esta plantilla?](#qué-se-incluye-en-esta-plantilla)
+- [Bibliotecas](#bibliotecas)
+- [Fuentes de textot](#fuentes-de-texto)
+- [Building](#building)
+- [Depuración](#depuración)
+- [Pruebas](#pruebas)
+- [Linting](#linting)
+- [TODO](#todo)
+
 ##  Motivación
 Cada que iniciaba un proyecto nuevo en react native me veía en la necesidad de instalar y configurar todas estas dependiencias desde cero. En este tiempo me he dado cuenta de que estas dependecias y configuraciones estan presentes en el 85% de los proyectos que he trabajo, es por eso que he creado esta plantilla con todas las configuraciones e instalaciones básicas como punto de inicio.
 
