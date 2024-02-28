@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Provider} from 'react-redux';
+import SplashScreen from 'react-native-splash-screen';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import {PersistGate} from 'redux-persist/integration/react';
 import Navigation from './src/navigation';
@@ -11,6 +12,9 @@ let persistor = persistStore(store);
 const queryClient = new QueryClient();
 
 function App(): React.JSX.Element {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
   return (
     <QueryClientProvider client={queryClient}>
       <Provider store={store}>
