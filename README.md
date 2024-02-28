@@ -50,6 +50,7 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 9. Comandos personalizados para testing
 10. Configuración básica para crear build de producción.
 11. Selector de tema (oscuro/claro) basado en un estado local persistente.
+12. Splash Screen peronalizable.
 
 
 
@@ -63,14 +64,23 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 | Redux Toolkit       | Estado global             | v2.2      | Gestión de estado global                         |
 | React Navigation  | Navegación           | v6.1      | Navegación mediante stacks, tabs y drawers |
 | RN Reanimated     | Animaciones           | v3.7      | Animaciones y transiciones            |
-| AsyncStorage      | Persistencia          | v1.22      | Guardado local                             |
+| AsyncStorage      | Persistencia          | v1.2      | Guardado local                             |
 | Axios          | Peticiones HTTP        | v1.6      | Comunicación con el backend                  |
 | React Query          | Cliente REST         | v1.6      | Gestor de llamadas asíncronas al servidor               |
 | Reactotron RN     | Inspector/Depuración   | v5.1      | Depuración de llamados al backend                                |
 | Jest              | Testing          | v29.6     | Estándar para aplicaciones javascript               |
 | Dayjs          | Fechas         | v1.11      | Biblioteca para el manejo de fechas                        |
-| FlashList         | Reemplazo de flatList | v1.6      | A performant drop-in replacement for FlatList  |
+| FlashList         | Reemplazo de flatList | v1.6      | Mejora el renderizado de multiples elementos en lista  |
+| RN SplashScreen         | Pantalla de bienvenida | v3.3     | Pantalla de bienvenida nativa para cada OS  |
 
+## Pantalla de bienvenida (Splash Screen)
+Para cambiar la pantalla de bienvenida (logo de react) es necesario reemplazar algunos elementos:
+
+**Para android**
+- Imagen principal en `/android/app/src/main/res/drawable/launch_screen.png`
+- Color de la barra de notificaciones en el archivo `/android/app/src/main/res/values/colors.xml ` el campo **status_bar_color**
+
+Para mayor detalle puede consultar la [documentación oficial de la biblioteca](https://github.com/crazycodeboy/react-native-splash-screen "documentación oficial de la biblioteca").
 
 ## Fuentes de texto
 Para agregar una nueva fuente es necesario agregarla a la carpeta `/android/app/src/main/assets/fonts`

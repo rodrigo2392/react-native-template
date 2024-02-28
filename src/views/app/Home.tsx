@@ -9,7 +9,6 @@ import Button from '../../components/Button';
 import 'dayjs/locale/es-mx';
 
 dayjs.extend(relativeTime);
-dayjs.locale('es-mx');
 
 export default function HomeScreen() {
   const dispatch = useDispatch();

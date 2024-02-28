@@ -3,9 +3,12 @@ import {Provider} from 'react-redux';
 import SplashScreen from 'react-native-splash-screen';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import {PersistGate} from 'redux-persist/integration/react';
+import dayjs from 'dayjs';
 import Navigation from './src/navigation';
 import {persistStore} from 'redux-persist';
 import store from './src/redux/store';
+
+dayjs.locale('es-mx');
 
 let persistor = persistStore(store);
 
