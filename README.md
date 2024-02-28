@@ -28,7 +28,7 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 ## ¿Qué se incluye en esta plantilla?
 
 1. Navegación basada en bottom tab bar y stack anidados.
-2. Fuente Roboto personalizada instala.
+2. Fuente Roboto y Montserrat.
 3. Integración básica de redux toolkit con persistencia.
 4. Flujo básico de autenticación con estado global.
 5. Iconos
@@ -87,7 +87,11 @@ npm run build:bundle
 ```
 Ambos generan un bundle autoincrementable con el numero de versión diferente al generado en el pasado.
 
-## Testing
+##Depuración
+Para hacer depuración de llamados al servidor, mensajes en consola o errores en general el proyecto tiene previamente configurado reactotron, sólo debes decargar el ejecutable desde su repositorio y automáticamente se conectará a la aplicación.
+[Decárgalo haciendo click aquí.](http://https://github.com/infinitered/reactotron/releases?q=reactotron-app&expanded=true "Decárgalo haciendo click aquí.")
+
+## Pruebas
 
 Para ejecutar los casos de pruebas usar el siguiente comando:
 
@@ -103,3 +107,10 @@ Para formatear el codigo ejecutar el comando:
 ```bash
 npm run lint
 ```
+
+##TODO
+- I18n
+- Variante con firebase
+- Variante con bibliotecas nativas multimedia (camara, micrófono, lector QR, etc.)
+- Variante con integración de mapas
+- Más pruebas unitarias
