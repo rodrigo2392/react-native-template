@@ -108,7 +108,7 @@ Para formatear el codigo ejecutar el comando:
 npm run lint
 ```
 
-##TODO
+## TODO
 - I18n
 - Variante con firebase
 - Variante con bibliotecas nativas multimedia (camara, micrófono, lector QR, etc.)
