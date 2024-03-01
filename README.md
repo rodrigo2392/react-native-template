@@ -51,7 +51,7 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 10. Configuración básica para crear build de producción.
 11. Selector de tema (oscuro/claro) basado en un estado local persistente.
 12. Splash Screen peronalizable.
-
+13. Información del dispositivo para React Native
 
 
 ##  Bibliotecas
@@ -72,6 +72,7 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 | Dayjs          | Fechas         | v1.11      | Biblioteca para el manejo de fechas                        |
 | FlashList         | Reemplazo de flatList | v1.6      | Mejora el renderizado de multiples elementos en lista  |
 | RN SplashScreen         | Pantalla de bienvenida | v3.3     | Pantalla de bienvenida nativa para cada OS  |
+| RN Device Info   | Información de dispositivo | v10.13  | Información de sistema para React Native              |
 
 ## Pantalla de bienvenida (Splash Screen)
 Para cambiar la pantalla de bienvenida (logo de react) es necesario reemplazar algunos elementos:
