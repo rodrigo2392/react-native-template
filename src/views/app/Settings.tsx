@@ -29,13 +29,15 @@ export default function SettingScreen() {
   return (
     <Container>
       <Text>Pantalla de configuración</Text>
-      <Button onPress={() => navigate.goBack()}>
-        <Text buttonText>Atras</Text>
+      <Button testID="goBackButton" onPress={() => navigate.goBack()}>
+        <Text buttonText>Atrás</Text>
       </Button>
-      <Button onPress={changeTheme}>
+      <Button testID="themeButton" onPress={changeTheme}>
         {currentTheme === 'light' ? (
           <View style={styles.container}>
-            <Text buttonText>Activar modo oscuro</Text>
+            <Text testID="darkText" buttonText>
+              Activar modo oscuro
+            </Text>
             <Icon
               name="dark-mode"
               size={20}
@@ -44,7 +46,9 @@ export default function SettingScreen() {
           </View>
         ) : (
           <View style={styles.container}>
-            <Text buttonText>Activar modo claro</Text>
+            <Text testID="lightText" buttonText>
+              Activar modo claro
+            </Text>
             <Icon
               name="light-mode"
               size={20}

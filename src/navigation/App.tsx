@@ -75,10 +75,12 @@ function BottomNavigation() {
 
 const Stack = createNativeStackNavigator();
 
-export default function App() {
+export default function App({initialRoute = 'Home'}: {initialRoute?: string}) {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Navigator
+        screenOptions={{headerShown: false}}
+        initialRouteName={initialRoute}>
         <Stack.Screen name="HomeStack" component={BottomNavigation} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
       </Stack.Navigator>

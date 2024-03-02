@@ -9,9 +9,11 @@ const {width, height} = Dimensions.get('window');
 export default function Container({
   children,
   scroll,
+  os = Platform.OS,
 }: {
   children: ReactElement | ReactElement[];
   scroll?: boolean;
+  os?: string;
 }) {
   const currentTheme = useSelector(selectTheme);
   const styles = StyleSheet.create({
@@ -21,7 +23,7 @@ export default function Container({
       paddingRight: width * 0.05,
       height,
       backgroundColor: colors[currentTheme].background,
-      paddingTop: Platform.OS === 'ios' ? 80 : 40,
+      paddingTop: os === 'ios' ? 80 : 40,
     },
     scrollContainer: {
       height,

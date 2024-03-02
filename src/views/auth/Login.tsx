@@ -13,7 +13,7 @@ export default function HomeScreen() {
   };
   return (
     <Container>
-      <Button onPress={() => doLogin()}>
+      <Button testID="loginButton" onPress={() => doLogin()}>
         <Text buttonText>Presiona para entrar</Text>
       </Button>
     </Container>

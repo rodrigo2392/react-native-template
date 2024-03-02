@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button functionality Renders Button correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#9D59FB",
+      "justifyContent": "center",
+      "marginVertical": 15,
+      "opacity": 1,
+      "paddingVertical": 10,
+      "width": 675,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFF",
+        "fontFamily": "Montserrat-Bold",
+        "fontSize": 18,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Renders Container correctly Renders Container correctly with scroll and ios 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFF",
+      "height": 1334,
+      "paddingLeft": 37.5,
+      "paddingRight": 37.5,
+      "paddingTop": 80,
+      "width": 750,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "height": 1334,
+        "paddingBottom": 180,
+      }
+    }
+  >
+    <RCTScrollView
+      bounces={false}
+      overScrollMode="never"
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`Renders Container correctly Renders Container correctly without scroll 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFF",
+      "height": 1334,
+      "paddingLeft": 37.5,
+      "paddingRight": 37.5,
+      "paddingTop": 40,
+      "width": 750,
+    }
+  }
+/>
+`;

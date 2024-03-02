@@ -5,12 +5,14 @@ import Container from '../../components/Container';
 import Text from '../../components/Text';
 import Button from '../../components/Button';
 
-export default function SettingScreen() {
+export default function AboutScreen() {
   const navigate = useNavigation<HomeScreenNavigationProp>();
   return (
     <Container>
       <Text>Contacto: itic.rodrigo@gmail.com</Text>
-      <Button onPress={() => navigate.navigate('Settings', {id: '123'})}>
+      <Button
+        testID="goToSettingsButton"
+        onPress={() => navigate.navigate('Settings', {id: '123'})}>
         <Text buttonText>Configuración</Text>
       </Button>
     </Container>

@@ -10,6 +10,7 @@ interface Props {
   bold?: boolean;
   color?: string;
   buttonText?: boolean;
+  testID?: string;
 }
 
 export default function Text({
@@ -18,6 +19,7 @@ export default function Text({
   bold = false,
   color,
   buttonText,
+  testID,
 }: Props) {
   const currentTheme = useSelector(selectTheme);
   const styles = StyleSheet.create({
@@ -32,5 +34,9 @@ export default function Text({
     },
   });
 
-  return <RText style={styles.main}>{children}</RText>;
+  return (
+    <RText testID={testID} style={styles.main}>
+      {children}
+    </RText>
+  );
 }

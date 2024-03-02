@@ -10,9 +10,11 @@ const {width} = Dimensions.get('screen');
 export default function ThemeButtom({
   children,
   onPress,
+  testID,
 }: {
   children: string | ReactElement;
   onPress?: () => void;
+  testID?: string;
 }) {
   const currentTheme = useSelector(selectTheme);
   const styles = StyleSheet.create({
@@ -26,7 +28,10 @@ export default function ThemeButtom({
     },
   });
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress}>
+    <TouchableOpacity
+      testID={testID}
+      style={styles.container}
+      onPress={onPress}>
       <Text bold color={colors[currentTheme].buttonText}>
         {children}
       </Text>
