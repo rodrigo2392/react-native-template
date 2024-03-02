@@ -131,6 +131,10 @@ Para formatear el codigo ejecutar el comando:
 npm run lint
 ```
 
+## Contribución
+Todos los PR son bienvenidos, si agregas una biblioteca agrégala también a la tabla del Readme, con una descripción general del feature/corrección es suficiente o captura de pantalla en caso de ser algún componente visual.
+En caso de ser una integración muy grande o con caracter de no básico crear un branch específico por ejemplo: firebase, algún framework ui o biblioteca específica como maps.
+
 ## TODO
 - I18n
 - Variante con firebase
