@@ -46,7 +46,12 @@ function BottomNavigation() {
     <Tab.Navigator
       screenOptions={({route}) => ({
         tabBarIcon: ({focused, color, size}) =>
-          TabBarIcon({focused, color, size, route}),
+          TabBarIcon({
+            focused,
+            color,
+            size,
+            route,
+          }),
         tabBarShowLabel: false,
         tabBarActiveTintColor: colors[currentTheme].active,
         tabBarInactiveTintColor: colors[currentTheme].inactive,
@@ -75,12 +80,10 @@ function BottomNavigation() {
 
 const Stack = createNativeStackNavigator();
 
-export default function App({initialRoute = 'Home'}: {initialRoute?: string}) {
+export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{headerShown: false}}
-        initialRouteName={initialRoute}>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="HomeStack" component={BottomNavigation} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
       </Stack.Navigator>

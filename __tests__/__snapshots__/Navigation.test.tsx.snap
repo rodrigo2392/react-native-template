@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App Navigation with About path correctly 1`] = `
+exports[`Renders App Navigation correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
@@ -177,720 +177,30 @@ exports[`Renders App Navigation with About path correctly 1`] = `
                         10 months
                          para navidad
                       </Text>
-                      <View
-                        accessibilityState={
-                          {
-                            "busy": undefined,
-                            "checked": undefined,
-                            "disabled": undefined,
-                            "expanded": undefined,
-                            "selected": undefined,
-                          }
-                        }
-                        accessibilityValue={
-                          {
-                            "max": undefined,
-                            "min": undefined,
-                            "now": undefined,
-                            "text": undefined,
-                          }
-                        }
-                        accessible={true}
-                        collapsable={false}
-                        focusable={true}
-                        onClick={[Function]}
-                        onResponderGrant={[Function]}
-                        onResponderMove={[Function]}
-                        onResponderRelease={[Function]}
-                        onResponderTerminate={[Function]}
-                        onResponderTerminationRequest={[Function]}
-                        onStartShouldSetResponder={[Function]}
-                        style={
-                          {
-                            "alignItems": "center",
-                            "backgroundColor": "#9D59FB",
-                            "justifyContent": "center",
-                            "marginVertical": 15,
-                            "opacity": 1,
-                            "paddingVertical": 10,
-                            "width": 675,
-                          }
-                        }
-                        testID="logoutButton"
-                      >
-                        <Text
-                          style={
-                            {
-                              "color": "#FFF",
-                              "fontFamily": "Montserrat-Bold",
-                              "fontSize": 18,
-                            }
-                          }
-                        >
-                          <Text
-                            style={
-                              {
-                                "color": "#FFF",
-                                "fontFamily": "Montserrat-Regular",
-                                "fontSize": 18,
-                              }
-                            }
-                          >
-                            Cerrar sesión
-                          </Text>
-                        </Text>
-                      </View>
-                    </View>
-                  </View>
-                  <View
-                    onLayout={[Function]}
-                    style={null}
-                  >
-                    <View
-                      collapsable={false}
-                      pointerEvents="box-none"
-                      style={
-                        {
-                          "bottom": 0,
-                          "left": 0,
-                          "position": "absolute",
-                          "right": 0,
-                          "top": 0,
-                          "zIndex": 0,
-                        }
-                      }
-                    >
-                      <View
-                        collapsable={false}
-                        style={
-                          {
-                            "backgroundColor": "#FFF",
-                            "borderBottomColor": "rgb(216, 216, 216)",
-                            "flex": 1,
-                            "shadowColor": "rgb(216, 216, 216)",
-                            "shadowOffset": {
-                              "height": 0.5,
-                              "width": 0,
-                            },
-                            "shadowOpacity": 0.85,
-                            "shadowRadius": 0,
-                          }
-                        }
-                      />
-                    </View>
-                    <View
-                      collapsable={false}
-                      pointerEvents="box-none"
-                      style={
-                        {
-                          "height": 44,
-                          "maxHeight": undefined,
-                          "minHeight": undefined,
-                          "opacity": undefined,
-                          "transform": undefined,
-                        }
-                      }
-                    >
-                      <View
-                        pointerEvents="none"
-                        style={
-                          {
-                            "height": 0,
-                          }
-                        }
-                      />
-                      <View
-                        pointerEvents="box-none"
-                        style={
-                          {
-                            "alignItems": "stretch",
-                            "flex": 1,
-                            "flexDirection": "row",
-                          }
-                        }
-                      >
-                        <View
-                          collapsable={false}
-                          pointerEvents="box-none"
-                          style={
-                            {
-                              "alignItems": "flex-start",
-                              "flexBasis": 0,
-                              "flexGrow": 1,
-                              "justifyContent": "center",
-                              "marginStart": 0,
-                            }
-                          }
-                        />
-                        <View
-                          collapsable={false}
-                          pointerEvents="box-none"
-                          style={
-                            {
-                              "justifyContent": "center",
-                              "marginHorizontal": 16,
-                              "maxWidth": 718,
-                            }
-                          }
-                        >
-                          <Text
-                            accessibilityRole="header"
-                            aria-level="1"
-                            collapsable={false}
-                            numberOfLines={1}
-                            style={
-                              {
-                                "color": "#242424",
-                                "fontSize": 17,
-                                "fontWeight": "600",
-                              }
-                            }
-                          >
-                            Inicio
-                          </Text>
-                        </View>
-                        <View
-                          collapsable={false}
-                          pointerEvents="box-none"
-                          style={
-                            {
-                              "alignItems": "flex-end",
-                              "flexBasis": 0,
-                              "flexGrow": 1,
-                              "justifyContent": "center",
-                              "marginEnd": 0,
-                            }
-                          }
-                        />
-                      </View>
-                    </View>
-                  </View>
-                </View>
-              </RNSScreen>
-            </RNSScreenNavigationContainer>
-            <View
-              collapsable={false}
-              onLayout={[Function]}
-              pointerEvents="auto"
-              style={
-                {
-                  "backgroundColor": "rgb(255, 255, 255)",
-                  "borderTopColor": "rgb(216, 216, 216)",
-                  "borderTopWidth": 0.5,
-                  "bottom": 0,
-                  "elevation": 8,
-                  "height": 49,
-                  "left": 0,
-                  "paddingBottom": 0,
-                  "paddingHorizontal": 0,
-                  "position": null,
-                  "right": 0,
-                  "transform": [
-                    {
-                      "translateY": 0,
-                    },
-                  ],
-                }
-              }
-            >
-              <View
-                pointerEvents="none"
-                style={
-                  {
-                    "bottom": 0,
-                    "left": 0,
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  }
-                }
-              />
-              <View
-                accessibilityRole="tablist"
-                style={
-                  {
-                    "flex": 1,
-                    "flexDirection": "row",
-                  }
-                }
-              >
-                <View
-                  accessibilityLabel="Inicio, tab, 1 of 2"
-                  accessibilityRole="button"
-                  accessibilityState={
-                    {
-                      "busy": undefined,
-                      "checked": undefined,
-                      "disabled": undefined,
-                      "expanded": undefined,
-                      "selected": true,
-                    }
-                  }
-                  accessibilityStates={
-                    [
-                      "selected",
-                    ]
-                  }
-                  accessibilityValue={
-                    {
-                      "max": undefined,
-                      "min": undefined,
-                      "now": undefined,
-                      "text": undefined,
-                    }
-                  }
-                  accessible={true}
-                  collapsable={false}
-                  focusable={true}
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  style={
-                    [
-                      {
-                        "alignItems": "center",
-                        "flex": 1,
-                      },
-                      {
-                        "backgroundColor": "#FFF",
-                      },
-                      {
-                        "flexDirection": "column",
-                        "justifyContent": "flex-end",
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      [
-                        {
-                          "flex": 1,
-                        },
-                        undefined,
-                      ]
-                    }
-                  >
-                    <View
-                      style={
-                        [
-                          {
-                            "alignItems": "center",
-                            "alignSelf": "center",
-                            "height": "100%",
-                            "justifyContent": "center",
-                            "minWidth": 25,
-                            "position": "absolute",
-                            "width": "100%",
-                          },
-                          {
-                            "opacity": 1,
-                          },
-                        ]
-                      }
-                    >
                       <Text
-                        allowFontScaling={false}
-                        selectable={false}
                         style={
-                          [
-                            {
-                              "color": "#9D59FB",
-                              "fontSize": 25,
-                            },
-                            undefined,
-                            {
-                              "fontFamily": "Material Design Icons",
-                              "fontStyle": "normal",
-                              "fontWeight": "normal",
-                            },
-                            {},
-                          ]
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 24,
+                          }
                         }
                       >
-                        󰋜
+                        Nombre app: 
+                        unknown
                       </Text>
-                    </View>
-                    <View
-                      style={
-                        [
-                          {
-                            "alignItems": "center",
-                            "alignSelf": "center",
-                            "height": "100%",
-                            "justifyContent": "center",
-                            "minWidth": 25,
-                            "position": "absolute",
-                            "width": "100%",
-                          },
-                          {
-                            "opacity": 0,
-                          },
-                        ]
-                      }
-                    >
                       <Text
-                        allowFontScaling={false}
-                        selectable={false}
                         style={
-                          [
-                            {
-                              "color": "#646464",
-                              "fontSize": 25,
-                            },
-                            undefined,
-                            {
-                              "fontFamily": "Material Design Icons",
-                              "fontStyle": "normal",
-                              "fontWeight": "normal",
-                            },
-                            {},
-                          ]
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 22,
+                          }
                         }
                       >
-                        󰚡
+                        Versión: 
+                        unknown
                       </Text>
-                    </View>
-                  </View>
-                </View>
-                <View
-                  accessibilityLabel="Acerca de, tab, 2 of 2"
-                  accessibilityRole="button"
-                  accessibilityState={
-                    {
-                      "busy": undefined,
-                      "checked": undefined,
-                      "disabled": undefined,
-                      "expanded": undefined,
-                      "selected": false,
-                    }
-                  }
-                  accessibilityStates={[]}
-                  accessibilityValue={
-                    {
-                      "max": undefined,
-                      "min": undefined,
-                      "now": undefined,
-                      "text": undefined,
-                    }
-                  }
-                  accessible={true}
-                  collapsable={false}
-                  focusable={true}
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  style={
-                    [
-                      {
-                        "alignItems": "center",
-                        "flex": 1,
-                      },
-                      {
-                        "backgroundColor": "#FFF",
-                      },
-                      {
-                        "flexDirection": "column",
-                        "justifyContent": "flex-end",
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      [
-                        {
-                          "flex": 1,
-                        },
-                        undefined,
-                      ]
-                    }
-                  >
-                    <View
-                      style={
-                        [
-                          {
-                            "alignItems": "center",
-                            "alignSelf": "center",
-                            "height": "100%",
-                            "justifyContent": "center",
-                            "minWidth": 25,
-                            "position": "absolute",
-                            "width": "100%",
-                          },
-                          {
-                            "opacity": 0,
-                          },
-                        ]
-                      }
-                    >
-                      <Text
-                        allowFontScaling={false}
-                        selectable={false}
-                        style={
-                          [
-                            {
-                              "color": "#9D59FB",
-                              "fontSize": 25,
-                            },
-                            undefined,
-                            {
-                              "fontFamily": "Material Design Icons",
-                              "fontStyle": "normal",
-                              "fontWeight": "normal",
-                            },
-                            {},
-                          ]
-                        }
-                      >
-                        󰋗
-                      </Text>
-                    </View>
-                    <View
-                      style={
-                        [
-                          {
-                            "alignItems": "center",
-                            "alignSelf": "center",
-                            "height": "100%",
-                            "justifyContent": "center",
-                            "minWidth": 25,
-                            "position": "absolute",
-                            "width": "100%",
-                          },
-                          {
-                            "opacity": 1,
-                          },
-                        ]
-                      }
-                    >
-                      <Text
-                        allowFontScaling={false}
-                        selectable={false}
-                        style={
-                          [
-                            {
-                              "color": "#646464",
-                              "fontSize": 25,
-                            },
-                            undefined,
-                            {
-                              "fontFamily": "Material Design Icons",
-                              "fontStyle": "normal",
-                              "fontWeight": "normal",
-                            },
-                            {},
-                          ]
-                        }
-                      >
-                        󰘥
-                      </Text>
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-        </View>
-      </View>
-      <RNSScreenStackHeaderConfig
-        backButtonInCustomView={false}
-        backTitleVisible={true}
-        backgroundColor="rgb(255, 255, 255)"
-        color="rgb(0, 122, 255)"
-        direction="ltr"
-        disableBackButtonMenu={false}
-        hidden={true}
-        hideBackButton={false}
-        largeTitleHideShadow={false}
-        title="HomeStack"
-        titleColor="rgb(28, 28, 30)"
-        topInsetEnabled={false}
-        translucent={false}
-      />
-    </RNSScreen>
-  </RNSScreenStack>
-</RNCSafeAreaProvider>
-`;
-
-exports[`Renders App Navigation with Home path correctly 1`] = `
-<RNCSafeAreaProvider
-  onInsetsChange={[Function]}
-  style={
-    [
-      {
-        "flex": 1,
-      },
-      undefined,
-    ]
-  }
->
-  <RNSScreenStack
-    style={
-      {
-        "flex": 1,
-      }
-    }
-  >
-    <RNSScreen
-      collapsable={false}
-      gestureResponseDistance={
-        {
-          "bottom": -1,
-          "end": -1,
-          "start": -1,
-          "top": -1,
-        }
-      }
-      nativeBackButtonDismissalEnabled={false}
-      onAppear={[Function]}
-      onDisappear={[Function]}
-      onDismissed={[Function]}
-      onGestureCancel={[Function]}
-      onHeaderBackButtonClicked={[Function]}
-      onNativeDismissCancelled={[Function]}
-      onTransitionProgress={[Function]}
-      onWillDisappear={[Function]}
-      replaceAnimation="push"
-      sheetAllowedDetents="large"
-      sheetCornerRadius={-1}
-      sheetExpandsWhenScrolledToEdge={true}
-      sheetGrabberVisible={false}
-      sheetLargestUndimmedDetent="all"
-      stackPresentation="push"
-      style={
-        {
-          "bottom": 0,
-          "left": 0,
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        }
-      }
-      swipeDirection="horizontal"
-    >
-      <View
-        accessibilityElementsHidden={false}
-        importantForAccessibility="auto"
-        style={
-          {
-            "flex": 1,
-            "flexDirection": "column-reverse",
-          }
-        }
-      >
-        <View
-          collapsable={false}
-          style={
-            [
-              {
-                "flex": 1,
-              },
-              {
-                "backgroundColor": "rgb(242, 242, 242)",
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              [
-                {
-                  "flex": 1,
-                },
-                undefined,
-              ]
-            }
-          >
-            <RNSScreenNavigationContainer
-              style={
-                {
-                  "flex": 1,
-                  "overflow": "hidden",
-                }
-              }
-            >
-              <RNSScreen
-                activityState={2}
-                collapsable={false}
-                gestureResponseDistance={
-                  {
-                    "bottom": -1,
-                    "end": -1,
-                    "start": -1,
-                    "top": -1,
-                  }
-                }
-                onGestureCancel={[Function]}
-                sheetAllowedDetents="large"
-                sheetCornerRadius={-1}
-                sheetExpandsWhenScrolledToEdge={true}
-                sheetGrabberVisible={false}
-                sheetLargestUndimmedDetent="all"
-                style={
-                  {
-                    "bottom": 0,
-                    "left": 0,
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                    "zIndex": 0,
-                  }
-                }
-              >
-                <View
-                  accessibilityElementsHidden={false}
-                  importantForAccessibility="auto"
-                  style={
-                    [
-                      {
-                        "backgroundColor": "rgb(242, 242, 242)",
-                        "flex": 1,
-                      },
-                      [
-                        {
-                          "flex": 1,
-                          "flexDirection": "column-reverse",
-                        },
-                        undefined,
-                      ],
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      {
-                        "flex": 1,
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        {
-                          "backgroundColor": "#FFF",
-                          "height": 1334,
-                          "paddingLeft": 37.5,
-                          "paddingRight": 37.5,
-                          "paddingTop": 80,
-                          "width": 750,
-                        }
-                      }
-                    >
                       <Text
                         style={
                           {
@@ -900,9 +210,8 @@ exports[`Renders App Navigation with Home path correctly 1`] = `
                           }
                         }
                       >
-                        Faltan 
-                        10 months
-                         para navidad
+                        DeviceId: 
+                        unknown
                       </Text>
                       <View
                         accessibilityState={
@@ -1997,6 +1306,42 @@ exports[`Renders Navigation with token correctly 1`] = `
                           Faltan 
                           10 months
                            para navidad
+                        </Text>
+                        <Text
+                          style={
+                            {
+                              "color": "#242424",
+                              "fontFamily": "Montserrat-Regular",
+                              "fontSize": 24,
+                            }
+                          }
+                        >
+                          Nombre app: 
+                          unknown
+                        </Text>
+                        <Text
+                          style={
+                            {
+                              "color": "#242424",
+                              "fontFamily": "Montserrat-Regular",
+                              "fontSize": 22,
+                            }
+                          }
+                        >
+                          Versión: 
+                          unknown
+                        </Text>
+                        <Text
+                          style={
+                            {
+                              "color": "#242424",
+                              "fontFamily": "Montserrat-Regular",
+                              "fontSize": 18,
+                            }
+                          }
+                        >
+                          DeviceId: 
+                          unknown
                         </Text>
                         <View
                           accessibilityState={

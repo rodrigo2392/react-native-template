@@ -52,24 +52,12 @@ it('Renders Auth Navigation correctly', async () => {
   expect(component!.toJSON()).toMatchSnapshot();
 });
 
-it('Renders App Navigation with Home path correctly', async () => {
+it('Renders App Navigation correctly', async () => {
   let component;
   await act(
     async () =>
       await waitFor(() => {
         component = render(<AppNavigation />, {});
-      }),
-  );
-
-  expect(component!.toJSON()).toMatchSnapshot();
-});
-
-it('Renders App Navigation with About path correctly', async () => {
-  let component;
-  await act(
-    async () =>
-      await waitFor(() => {
-        component = render(<AppNavigation initialRoute="About" />, {});
       }),
   );
 

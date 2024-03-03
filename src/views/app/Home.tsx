@@ -30,7 +30,7 @@ export default function HomeScreen() {
       <Text size="extra">Nombre app: {displayAppName}</Text>
       <Text size="large">Versión: {appVersion}</Text>
       <Text size="normal">DeviceId: {deviceId}</Text>
-      <Button onPress={() => doLogout()}>
+      <Button testID="logoutButton" onPress={() => doLogout()}>
         <Text buttonText>Cerrar sesión</Text>
       </Button>
     </Container>

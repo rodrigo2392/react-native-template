@@ -2,6 +2,9 @@ import {jest} from '@jest/globals';
 import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
 import {NativeModules} from 'react-native';
 import 'react-native-gesture-handler/jestSetup';
+import mockRNDeviceInfo from 'react-native-device-info/jest/react-native-device-info-mock';
+
+jest.mock('react-native-device-info', () => mockRNDeviceInfo);
 
 NativeModules.ImagePickerManager = {
   showImagePicker: jest.fn(),

@@ -195,6 +195,42 @@ exports[`Renders Home Screen correctly Renders Home Screen correctly 1`] = `
     10 months
      para navidad
   </Text>
+  <Text
+    style={
+      {
+        "color": "#242424",
+        "fontFamily": "Montserrat-Regular",
+        "fontSize": 24,
+      }
+    }
+  >
+    Nombre app: 
+    unknown
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#242424",
+        "fontFamily": "Montserrat-Regular",
+        "fontSize": 22,
+      }
+    }
+  >
+    Versión: 
+    unknown
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#242424",
+        "fontFamily": "Montserrat-Regular",
+        "fontSize": 18,
+      }
+    }
+  >
+    DeviceId: 
+    unknown
+  </Text>
   <View
     accessibilityState={
       {
