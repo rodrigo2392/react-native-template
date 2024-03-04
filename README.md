@@ -74,6 +74,13 @@ Estaré actualizando este repositorio, ya sea con las nuevas versiones de react 
 | RN SplashScreen         | Pantalla de bienvenida | v3.3     | Pantalla de bienvenida nativa para cada OS  |
 | RN Device Info   | Información de dispositivo | v10.13  | Información de sistema para React Native              |
 
+## Renombrar proyecto
+Para renombrar el proyecto, reemplazar el nombre del paquete para android y del proyecto de xcode puedes usar la siguiente dependencia:
+
+`npx react-native-rename "Travel App" -b "com.rodrigomendez.travelapp"`
+
+Para más información puedes ir a la [documentación oficial](https://www.npmjs.com/package/react-native-rename "documentación oficial")
+
 ## Pantalla de bienvenida (Splash Screen)
 Para cambiar la pantalla de bienvenida (logo de react) es necesario reemplazar algunos elementos:
 
