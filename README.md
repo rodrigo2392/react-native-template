@@ -1,97 +1,171 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<p align="center">
+  <a href="http://reactnative.dev/" target="blank"><img src="https://reactnative.dev/img/header_logo.svg" alt="React Logo" width="180" /></a>
+</p>
 
-# Getting Started
+<h1 align="center">React Native Template</h1>
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+<p align="center">
+  Repositorio base con configuraciones necesarias para inciar un nuevo proyecto basado en react native, incluye navegación, gestión de estado global, fuentes, iconos y bibliotecas útiles para el desarrollo
+</p>
 
-## Step 1: Start Metro
+<p align="center">
+  <a href="https://nodejs.org/docs/latest-v20.x/api/index.html"><img src="https://img.shields.io/badge/Node-20.x-green.svg" alt="node"/></a>
+    <img src="https://img.shields.io/badge/NPM-10.x-red.svg" alt="npm"/>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/Typescript-5.x-blue.svg" alt="typescript"/></a>
+   <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-0.73.x-blue.svg" alt="typescript"/></a>
+    <a href="https://es.react.dev/"><img src="https://img.shields.io/badge/React-18.x-blue.svg" alt="typescript"/></a>
+</p>
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Tabla de contenido
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- [Motivación](#motivación)
+- [¿Qué se incluye en esta plantilla?](#qué-se-incluye-en-esta-plantilla)
+- [Bibliotecas](#bibliotecas)
+- [Fuentes de texto](#fuentes-de-texto)
+- [Building](#building)
+- [Depuración](#depuración)
+- [Pruebas](#pruebas)
+- [Linting](#linting)
+- [TODO](#todo)
 
-```sh
-# Using npm
-npm start
+## Motivación
 
-# OR using Yarn
-yarn start
+Cada que iniciaba un proyecto nuevo en react native me veía en la necesidad de instalar y configurar todas estas dependiencias desde cero. En este tiempo me he dado cuenta de que estas dependecias y configuraciones estan presentes en el 85% de los proyectos que he trabajo, es por eso que he creado esta plantilla con todas las configuraciones e instalaciones básicas como punto de inicio.
+
+Esta plantilla no contine ningún tipo de arquitectura y presenta una estructura de carpetas flexible que permite al desarrollador adecuarlo a su proyecto.
+
+Tene funcionalidad dummy como el inicio de sesion y las llamadas el servidor, pero son solo para ahorrar tiempo en ese trabajo. La navegación ya contiene el flujo correcto para trabajar con un inicio de sesión si así se requiere.
+
+Estaré actualizando este repositorio, ya sea con las nuevas versiones de react native o de las dependiencia, así tambien como nuevas características que puedan ser útiles.
+
+## ¿Qué se incluye en esta plantilla?
+
+1. Navegación basada en bottom tab bar y stack anidados.
+2. Fuente Roboto y Montserrat.
+3. Integración básica de redux toolkit con persistencia.
+4. Flujo básico de autenticación con estado global.
+5. Iconos
+6. Configuración básica de axios para permitir enviar un token como método de autenticación.
+7. Reactotron como método de depuración de llamados al backend.
+8. Comandos para generar archivo APK en android con build autoincremental.
+9. Comandos personalizados para testing
+10. Configuración básica para crear build de producción.
+11. Selector de tema (oscuro/claro) basado en un estado local persistente.
+12. Splash Screen peronalizable.
+13. Información del dispositivo para React Native
+
+## Bibliotecas
+
+| Biblioteca       | Categoría                  | Versión | Descripción                                           |
+| ---------------- | -------------------------- | ------- | ----------------------------------------------------- |
+| React Native     | Framework                  | v0.73   | Framework móvil                                       |
+| React            | UI                         | v18.2   | Biblioteca UI                                         |
+| TypeScript       | Lenguaje                   | v5.0    | Tipado                                                |
+| Redux Toolkit    | Estado global              | v2.2    | Gestión de estado global                              |
+| React Navigation | Navegación                 | v6.1    | Navegación mediante stacks, tabs y drawers            |
+| RN Reanimated    | Animaciones                | v3.7    | Animaciones y transiciones                            |
+| AsyncStorage     | Persistencia               | v1.2    | Guardado local                                        |
+| Axios            | Peticiones HTTP            | v1.6    | Comunicación con el backend                           |
+| React Query      | Cliente REST               | v1.6    | Gestor de llamadas asíncronas al servidor             |
+| Reactotron RN    | Inspector/Depuración       | v5.1    | Depuración de llamados al backend                     |
+| Jest             | Testing                    | v29.6   | Estándar para aplicaciones javascript                 |
+| Dayjs            | Fechas                     | v1.11   | Biblioteca para el manejo de fechas                   |
+| FlashList        | Reemplazo de flatList      | v1.6    | Mejora el renderizado de multiples elementos en lista |
+| RN SplashScreen  | Pantalla de bienvenida     | v3.3    | Pantalla de bienvenida nativa para cada OS            |
+| RN Device Info   | Información de dispositivo | v10.13  | Información de sistema para React Native              |
+
+## Renombrar proyecto
+
+Para renombrar el proyecto, reemplazar el nombre del paquete para android y del proyecto de xcode puedes usar la siguiente dependencia:
+
+`npx react-native-rename "Travel App" -b "com.rodrigomendez.travelapp"`
+
+Para más información puedes ir a la [documentación oficial](https://www.npmjs.com/package/react-native-rename 'documentación oficial')
+
+## Pantalla de bienvenida (Splash Screen)
+
+Para cambiar la pantalla de bienvenida (logo de react) es necesario reemplazar algunos elementos:
+
+**Para android**
+
+- Imagen principal en `/android/app/src/main/res/drawable/launch_screen.png`
+- Color de la barra de notificaciones en el archivo `/android/app/src/main/res/values/colors.xml ` el campo **status_bar_color**
+
+Para mayor detalle puede consultar la [documentación oficial de la biblioteca](https://github.com/crazycodeboy/react-native-splash-screen 'documentación oficial de la biblioteca').
+
+## Fuentes de texto
+
+Para agregar una nueva fuente es necesario agregarla a la carpeta `/android/app/src/main/assets/fonts`
+Es importante usar el mismo nombre del archivo por ejemplo, si el archivo se llama **Montserrat-Regular** se deberá usar de la misma manera de modo que quede así:
+
+`fontFamily: 'Montserrat-Regular'`
+
+o así
+
+`fontFamily: 'Montserrat-Bold'`
+
+No usar el modificador `fontWeight: 'bold'` esto hace que la fuente no funcione, en caso de querer un tamaño bold, usar la fuente correspondiente.
+
+## Building
+
+Para generar un apk de producción usar el siguiente comando:
+
+```bash
+npm run build:apk
 ```
 
-## Step 2: Build and run your app
+Para generar un bundle de android para producción usar el siguiente comando:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+npm run build:bundle
 ```
 
-### iOS
+Ambos generan un bundle autoincrementable con el numero de versión diferente al generado en el pasado.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## Depuración
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Para hacer depuración de llamados al servidor, mensajes en consola o errores en general el proyecto tiene previamente configurado reactotron, sólo debes decargar el ejecutable desde su repositorio y automáticamente se conectará a la aplicación.
+[Decárgalo haciendo click aquí.](http://https://github.com/infinitered/reactotron/releases?q=reactotron-app&expanded=true 'Decárgalo haciendo click aquí.')
 
-```sh
-bundle install
+## Pruebas
+
+Para ejecutar los casos de pruebas usar el siguiente comando:
+
+```bash
+npm run test
 ```
 
-Then, and every time you update your native dependencies, run:
+Los casos de prueba se encuentran en la carpeta **`__test__`**
 
-```sh
-bundle exec pod install
+## Linting
+
+Para formatear el codigo ejecutar el comando:
+
+```bash
+npm run lint
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## Contribución
 
-```sh
-# Using npm
-npm run ios
+Todos los PR son bienvenidos, si agregas una biblioteca agrégala también a la tabla del Readme, con una descripción general del feature/corrección es suficiente o captura de pantalla en caso de ser algún componente visual.
+En caso de ser una integración muy grande o con caracter de no básico crear un branch específico por ejemplo: firebase, algún framework ui o biblioteca específica como maps.
 
-# OR using Yarn
-yarn ios
-```
+## Autor
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Puedes encontrarme en Twitter [@rodrigom_dev](https://twitter.com/rodrigom_dev)! o en youtube [@rodrigomendezdev](https://www.youtube.com/@rodrigomendezdev)!
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Gracias por contribuir a:
 
-## Step 3: Modify your app
+- Daniel Ruiz [danieRG](https://github.com/danieRG)
 
-Now that you have successfully run the app, let's make changes!
+## TODO
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+- I18n
+- Variante con firebase
+- Variante con bibliotecas nativas multimedia (camara, micrófono, lector QR, etc.)
+- Variante con integración de mapas
+- Más pruebas unitarias
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## Licencia
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [MIT](LICENSE)
