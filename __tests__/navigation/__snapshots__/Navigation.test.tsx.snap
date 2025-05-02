@@ -1,0 +1,2105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders App Navigation correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      activityState={2}
+      aria-hidden={false}
+      collapsable={false}
+      fullScreenSwipeShadowEnabled={true}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      hasLargeHeader={false}
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onHeaderHeightChange={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onSheetDetentChanged={[Function]}
+      onTransitionProgress={[Function]}
+      onWillAppear={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents={
+        [
+          1,
+        ]
+      }
+      sheetCornerRadius={-1}
+      sheetElevation={24}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetInitialDetent={0}
+      sheetInitialDetentIndex={0}
+      sheetLargestUndimmedDetent={-1}
+      sheetLargestUndimmedDetentIndex={-1}
+      stackPresentation="push"
+      style={
+        [
+          [
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ],
+          {
+            "zIndex": undefined,
+          },
+        ]
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenContentWrapper
+        collapsable={false}
+        style={
+          [
+            {
+              "flex": 1,
+            },
+            [
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "flexDirection": "column",
+              },
+            ]
+          }
+        >
+          <RNSScreenNavigationContainer
+            style={
+              {
+                "flex": 1,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <RNSScreen
+              activityState={2}
+              collapsable={false}
+              gestureResponseDistance={
+                {
+                  "bottom": -1,
+                  "end": -1,
+                  "start": -1,
+                  "top": -1,
+                }
+              }
+              onGestureCancel={[Function]}
+              sheetAllowedDetents={
+                [
+                  1,
+                ]
+              }
+              sheetCornerRadius={-1}
+              sheetElevation={24}
+              sheetExpandsWhenScrolledToEdge={true}
+              sheetGrabberVisible={false}
+              sheetInitialDetent={0}
+              sheetLargestUndimmedDetent={-1}
+              style={
+                [
+                  [
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "zIndex": 0,
+                    },
+                  ],
+                  {
+                    "zIndex": undefined,
+                  },
+                ]
+              }
+            >
+              <View
+                aria-hidden={false}
+                collapsable={false}
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgb(242, 242, 242)",
+                      "flex": 1,
+                    },
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      [
+                        undefined,
+                        false,
+                      ],
+                    ],
+                  ]
+                }
+              >
+                <View
+                  onLayout={[Function]}
+                  pointerEvents="box-none"
+                  style={
+                    [
+                      {
+                        "zIndex": 1,
+                      },
+                      null,
+                    ]
+                  }
+                >
+                  <View
+                    collapsable={false}
+                    pointerEvents="box-none"
+                    style={
+                      [
+                        {
+                          "height": 44,
+                          "maxHeight": undefined,
+                          "minHeight": undefined,
+                          "opacity": undefined,
+                          "transform": undefined,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      pointerEvents="box-none"
+                      style={
+                        [
+                          {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="auto"
+                        style={
+                          [
+                            {
+                              "flex": 1,
+                              "shadowOffset": {
+                                "height": 0.5,
+                                "width": 0,
+                              },
+                              "shadowOpacity": 0.3,
+                              "shadowRadius": 0,
+                            },
+                            {
+                              "backgroundColor": "rgb(255, 255, 255)",
+                              "borderBottomColor": "rgb(216, 216, 216)",
+                              "shadowColor": "rgba(0, 0, 0, 1)",
+                            },
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      pointerEvents="none"
+                      style={
+                        {
+                          "height": 0,
+                        }
+                      }
+                    />
+                    <View
+                      pointerEvents="box-none"
+                      style={
+                        [
+                          {
+                            "alignItems": "stretch",
+                            "flex": 1,
+                            "flexDirection": "row",
+                          },
+                          {
+                            "marginHorizontal": 5,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "flex-start",
+                            },
+                            {
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                            },
+                            {
+                              "marginStart": 0,
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          [
+                            {
+                              "justifyContent": "center",
+                            },
+                            {
+                              "maxWidth": 718,
+                            },
+                            {
+                              "marginHorizontal": 16,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          aria-level="1"
+                          collapsable={false}
+                          numberOfLines={1}
+                          onLayout={[Function]}
+                          role="heading"
+                          style={
+                            [
+                              {
+                                "color": "rgb(28, 28, 30)",
+                              },
+                              {
+                                "fontFamily": "System",
+                                "fontWeight": "600",
+                              },
+                              {
+                                "fontSize": 17,
+                              },
+                              {
+                                "color": "#242424",
+                              },
+                            ]
+                          }
+                        >
+                          Inicio
+                        </Text>
+                      </View>
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "flex-end",
+                            },
+                            {
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                            },
+                            {
+                              "marginEnd": 0,
+                            },
+                            undefined,
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#FFF",
+                        "height": 1334,
+                        "paddingLeft": 37.5,
+                        "paddingRight": 37.5,
+                        "paddingTop": 80,
+                        "width": 750,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#242424",
+                          "fontFamily": "Montserrat-Regular",
+                          "fontSize": 18,
+                        }
+                      }
+                    >
+                      Faltan 
+                      8 months
+                       para navidad
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "#242424",
+                          "fontFamily": "Montserrat-Regular",
+                          "fontSize": 24,
+                        }
+                      }
+                    >
+                      Nombre app: 
+                      unknown
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "#242424",
+                          "fontFamily": "Montserrat-Regular",
+                          "fontSize": 22,
+                        }
+                      }
+                    >
+                      Versión: 
+                      unknown
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "#242424",
+                          "fontFamily": "Montserrat-Regular",
+                          "fontSize": 18,
+                        }
+                      }
+                    >
+                      DeviceId: 
+                      unknown
+                    </Text>
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        {
+                          "alignItems": "center",
+                          "backgroundColor": "#9D59FB",
+                          "justifyContent": "center",
+                          "marginVertical": 15,
+                          "opacity": 1,
+                          "paddingVertical": 10,
+                          "width": 675,
+                        }
+                      }
+                      testID="logoutButton"
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#FFF",
+                            "fontFamily": "Montserrat-Bold",
+                            "fontSize": 18,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            {
+                              "color": "#FFF",
+                              "fontFamily": "Montserrat-Regular",
+                              "fontSize": 18,
+                            }
+                          }
+                        >
+                          Cerrar sesión
+                        </Text>
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNSScreen>
+          </RNSScreenNavigationContainer>
+          <View
+            collapsable={false}
+            onLayout={[Function]}
+            pointerEvents="auto"
+            style={
+              {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderColor": "rgb(216, 216, 216)",
+                "borderTopWidth": 0.5,
+                "bottom": 0,
+                "elevation": 8,
+                "end": 0,
+                "height": 49,
+                "paddingBottom": 0,
+                "paddingHorizontal": 0,
+                "paddingTop": 0,
+                "position": undefined,
+                "start": 0,
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              pointerEvents="none"
+              style={
+                {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <View
+              role="tablist"
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  [
+                    {
+                      "borderRadius": 0,
+                      "overflow": "visible",
+                    },
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  accessibilityLabel="Inicio, tab, 1 of 2"
+                  accessibilityLargeContentTitle="Inicio"
+                  accessibilityShowsLargeContentViewer={true}
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": true,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  href="/HomeStack/Home"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  role="button"
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFF",
+                      "borderRadius": 0,
+                      "cursor": "pointer",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "flex-start",
+                      "opacity": 1,
+                      "padding": 5,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "height": 28,
+                          "width": 31,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "position": "absolute",
+                            "width": "100%",
+                          },
+                          {
+                            "minWidth": 25,
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      <Icon
+                        color="#9D59FB"
+                        name="home"
+                        size={25}
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "position": "absolute",
+                            "width": "100%",
+                          },
+                          {
+                            "opacity": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <Icon
+                        color="#646464"
+                        name="home-filled"
+                        size={25}
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {
+                      "borderRadius": 0,
+                      "overflow": "visible",
+                    },
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  accessibilityLabel="Acerca de, tab, 2 of 2"
+                  accessibilityLargeContentTitle="Acerca de"
+                  accessibilityShowsLargeContentViewer={true}
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": false,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  href="/HomeStack/About"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  role="button"
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFF",
+                      "borderRadius": 0,
+                      "cursor": "pointer",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "flex-start",
+                      "opacity": 1,
+                      "padding": 5,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "height": 28,
+                          "width": 31,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "position": "absolute",
+                            "width": "100%",
+                          },
+                          {
+                            "minWidth": 25,
+                            "opacity": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <Icon
+                        color="#9D59FB"
+                        name="help"
+                        size={25}
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "height": "100%",
+                            "justifyContent": "center",
+                            "position": "absolute",
+                            "width": "100%",
+                          },
+                          {
+                            "opacity": 1,
+                          },
+                        ]
+                      }
+                    >
+                      <Icon
+                        color="#646464"
+                        name="help-outline"
+                        size={25}
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreenContentWrapper>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleFontFamily="System"
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={true}
+        hideBackButton={false}
+        largeTitleFontFamily="System"
+        largeTitleFontWeight="700"
+        largeTitleHideShadow={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+        title="HomeStack"
+        titleColor="rgb(28, 28, 30)"
+        titleFontFamily="System"
+        titleFontWeight="600"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Renders Auth Navigation correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      activityState={2}
+      aria-hidden={false}
+      collapsable={false}
+      fullScreenSwipeShadowEnabled={true}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      hasLargeHeader={false}
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onHeaderHeightChange={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onSheetDetentChanged={[Function]}
+      onTransitionProgress={[Function]}
+      onWillAppear={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents={
+        [
+          1,
+        ]
+      }
+      sheetCornerRadius={-1}
+      sheetElevation={24}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetInitialDetent={0}
+      sheetInitialDetentIndex={0}
+      sheetLargestUndimmedDetent={-1}
+      sheetLargestUndimmedDetentIndex={-1}
+      stackPresentation="push"
+      style={
+        [
+          [
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ],
+          {
+            "zIndex": undefined,
+          },
+        ]
+      }
+      swipeDirection="horizontal"
+    >
+      <RNSScreenContentWrapper
+        collapsable={false}
+        style={
+          [
+            {
+              "flex": 1,
+            },
+            [
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFF",
+              "height": 1334,
+              "paddingLeft": 37.5,
+              "paddingRight": 37.5,
+              "paddingTop": 80,
+              "width": 750,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#9D59FB",
+                "justifyContent": "center",
+                "marginVertical": 15,
+                "opacity": 1,
+                "paddingVertical": 10,
+                "width": 675,
+              }
+            }
+            testID="loginButton"
+          >
+            <Text
+              style={
+                {
+                  "color": "#FFF",
+                  "fontFamily": "Montserrat-Bold",
+                  "fontSize": 18,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#FFF",
+                    "fontFamily": "Montserrat-Regular",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                Presiona para entrar
+              </Text>
+            </Text>
+          </View>
+        </View>
+      </RNSScreenContentWrapper>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleFontFamily="System"
+        backTitleVisible={true}
+        backgroundColor="#FFF"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleFontFamily="System"
+        largeTitleFontWeight="700"
+        largeTitleHideShadow={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+        title="Iniciar sesión"
+        titleColor="#242424"
+        titleFontFamily="System"
+        titleFontWeight="600"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Renders Navigation correctly 1`] = `
+[
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNSScreenStack
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        aria-hidden={false}
+        collapsable={false}
+        fullScreenSwipeShadowEnabled={true}
+        gestureResponseDistance={
+          {
+            "bottom": -1,
+            "end": -1,
+            "start": -1,
+            "top": -1,
+          }
+        }
+        hasLargeHeader={false}
+        nativeBackButtonDismissalEnabled={false}
+        onAppear={[Function]}
+        onDisappear={[Function]}
+        onDismissed={[Function]}
+        onGestureCancel={[Function]}
+        onHeaderBackButtonClicked={[Function]}
+        onHeaderHeightChange={[Function]}
+        onNativeDismissCancelled={[Function]}
+        onSheetDetentChanged={[Function]}
+        onTransitionProgress={[Function]}
+        onWillAppear={[Function]}
+        onWillDisappear={[Function]}
+        replaceAnimation="push"
+        sheetAllowedDetents={
+          [
+            1,
+          ]
+        }
+        sheetCornerRadius={-1}
+        sheetElevation={24}
+        sheetExpandsWhenScrolledToEdge={true}
+        sheetGrabberVisible={false}
+        sheetInitialDetent={0}
+        sheetInitialDetentIndex={0}
+        sheetLargestUndimmedDetent={-1}
+        sheetLargestUndimmedDetentIndex={-1}
+        stackPresentation="push"
+        style={
+          [
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ],
+            {
+              "zIndex": undefined,
+            },
+          ]
+        }
+        swipeDirection="horizontal"
+      >
+        <RNSScreenContentWrapper
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              [
+                {
+                  "backgroundColor": "rgb(242, 242, 242)",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#FFF",
+                "height": 1334,
+                "paddingLeft": 37.5,
+                "paddingRight": 37.5,
+                "paddingTop": 80,
+                "width": 750,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#9D59FB",
+                  "justifyContent": "center",
+                  "marginVertical": 15,
+                  "opacity": 1,
+                  "paddingVertical": 10,
+                  "width": 675,
+                }
+              }
+              testID="loginButton"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#FFF",
+                    "fontFamily": "Montserrat-Bold",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#FFF",
+                      "fontFamily": "Montserrat-Regular",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Presiona para entrar
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </RNSScreenContentWrapper>
+        <RNSScreenStackHeaderConfig
+          backButtonInCustomView={false}
+          backTitleFontFamily="System"
+          backTitleVisible={true}
+          backgroundColor="#FFF"
+          color="rgb(0, 122, 255)"
+          direction="ltr"
+          disableBackButtonMenu={false}
+          hidden={false}
+          hideBackButton={false}
+          largeTitleFontFamily="System"
+          largeTitleFontWeight="700"
+          largeTitleHideShadow={false}
+          pointerEvents="box-none"
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+          title="Iniciar sesión"
+          titleColor="#242424"
+          titleFontFamily="System"
+          titleFontWeight="600"
+          topInsetEnabled={false}
+          translucent={false}
+        />
+      </RNSScreen>
+    </RNSScreenStack>
+  </RNCSafeAreaProvider>,
+  <RCTSafeAreaView
+    style={
+      {
+        "backgroundColor": "#FFF",
+        "flex": 0,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Renders Navigation with token correctly 1`] = `
+[
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNSScreenStack
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        aria-hidden={false}
+        collapsable={false}
+        fullScreenSwipeShadowEnabled={true}
+        gestureResponseDistance={
+          {
+            "bottom": -1,
+            "end": -1,
+            "start": -1,
+            "top": -1,
+          }
+        }
+        hasLargeHeader={false}
+        nativeBackButtonDismissalEnabled={false}
+        onAppear={[Function]}
+        onDisappear={[Function]}
+        onDismissed={[Function]}
+        onGestureCancel={[Function]}
+        onHeaderBackButtonClicked={[Function]}
+        onHeaderHeightChange={[Function]}
+        onNativeDismissCancelled={[Function]}
+        onSheetDetentChanged={[Function]}
+        onTransitionProgress={[Function]}
+        onWillAppear={[Function]}
+        onWillDisappear={[Function]}
+        replaceAnimation="push"
+        sheetAllowedDetents={
+          [
+            1,
+          ]
+        }
+        sheetCornerRadius={-1}
+        sheetElevation={24}
+        sheetExpandsWhenScrolledToEdge={true}
+        sheetGrabberVisible={false}
+        sheetInitialDetent={0}
+        sheetInitialDetentIndex={0}
+        sheetLargestUndimmedDetent={-1}
+        sheetLargestUndimmedDetentIndex={-1}
+        stackPresentation="push"
+        style={
+          [
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ],
+            {
+              "zIndex": undefined,
+            },
+          ]
+        }
+        swipeDirection="horizontal"
+      >
+        <RNSScreenContentWrapper
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              [
+                {
+                  "backgroundColor": "rgb(242, 242, 242)",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                },
+                {
+                  "flexDirection": "column",
+                },
+              ]
+            }
+          >
+            <RNSScreenNavigationContainer
+              style={
+                {
+                  "flex": 1,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <RNSScreen
+                activityState={2}
+                collapsable={false}
+                gestureResponseDistance={
+                  {
+                    "bottom": -1,
+                    "end": -1,
+                    "start": -1,
+                    "top": -1,
+                  }
+                }
+                onGestureCancel={[Function]}
+                sheetAllowedDetents={
+                  [
+                    1,
+                  ]
+                }
+                sheetCornerRadius={-1}
+                sheetElevation={24}
+                sheetExpandsWhenScrolledToEdge={true}
+                sheetGrabberVisible={false}
+                sheetInitialDetent={0}
+                sheetLargestUndimmedDetent={-1}
+                style={
+                  [
+                    [
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      {
+                        "zIndex": 0,
+                      },
+                    ],
+                    {
+                      "zIndex": undefined,
+                    },
+                  ]
+                }
+              >
+                <View
+                  aria-hidden={false}
+                  collapsable={false}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                        "flex": 1,
+                      },
+                      [
+                        {
+                          "flex": 1,
+                        },
+                        [
+                          undefined,
+                          false,
+                        ],
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    onLayout={[Function]}
+                    pointerEvents="box-none"
+                    style={
+                      [
+                        {
+                          "zIndex": 1,
+                        },
+                        null,
+                      ]
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      pointerEvents="box-none"
+                      style={
+                        [
+                          {
+                            "height": 44,
+                            "maxHeight": undefined,
+                            "minHeight": undefined,
+                            "opacity": undefined,
+                            "transform": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        pointerEvents="box-none"
+                        style={
+                          [
+                            {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="auto"
+                          style={
+                            [
+                              {
+                                "flex": 1,
+                                "shadowOffset": {
+                                  "height": 0.5,
+                                  "width": 0,
+                                },
+                                "shadowOpacity": 0.3,
+                                "shadowRadius": 0,
+                              },
+                              {
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "borderBottomColor": "rgb(216, 216, 216)",
+                                "shadowColor": "rgba(0, 0, 0, 1)",
+                              },
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                      <View
+                        pointerEvents="none"
+                        style={
+                          {
+                            "height": 0,
+                          }
+                        }
+                      />
+                      <View
+                        pointerEvents="box-none"
+                        style={
+                          [
+                            {
+                              "alignItems": "stretch",
+                              "flex": 1,
+                              "flexDirection": "row",
+                            },
+                            {
+                              "marginHorizontal": 5,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          collapsable={false}
+                          pointerEvents="box-none"
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start",
+                              },
+                              {
+                                "flexBasis": 0,
+                                "flexGrow": 1,
+                              },
+                              {
+                                "marginStart": 0,
+                              },
+                              undefined,
+                            ]
+                          }
+                        />
+                        <View
+                          collapsable={false}
+                          pointerEvents="box-none"
+                          style={
+                            [
+                              {
+                                "justifyContent": "center",
+                              },
+                              {
+                                "maxWidth": 718,
+                              },
+                              {
+                                "marginHorizontal": 16,
+                              },
+                              undefined,
+                            ]
+                          }
+                        >
+                          <Text
+                            aria-level="1"
+                            collapsable={false}
+                            numberOfLines={1}
+                            onLayout={[Function]}
+                            role="heading"
+                            style={
+                              [
+                                {
+                                  "color": "rgb(28, 28, 30)",
+                                },
+                                {
+                                  "fontFamily": "System",
+                                  "fontWeight": "600",
+                                },
+                                {
+                                  "fontSize": 17,
+                                },
+                                {
+                                  "color": "#242424",
+                                },
+                              ]
+                            }
+                          >
+                            Inicio
+                          </Text>
+                        </View>
+                        <View
+                          collapsable={false}
+                          pointerEvents="box-none"
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "flex-end",
+                              },
+                              {
+                                "flexBasis": 0,
+                                "flexGrow": 1,
+                              },
+                              {
+                                "marginEnd": 0,
+                              },
+                              undefined,
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "backgroundColor": "#FFF",
+                          "height": 1334,
+                          "paddingLeft": 37.5,
+                          "paddingRight": 37.5,
+                          "paddingTop": 80,
+                          "width": 750,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 18,
+                          }
+                        }
+                      >
+                        Faltan 
+                        8 months
+                         para navidad
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 24,
+                          }
+                        }
+                      >
+                        Nombre app: 
+                        unknown
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 22,
+                          }
+                        }
+                      >
+                        Versión: 
+                        unknown
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "color": "#242424",
+                            "fontFamily": "Montserrat-Regular",
+                            "fontSize": 18,
+                          }
+                        }
+                      >
+                        DeviceId: 
+                        unknown
+                      </Text>
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "#9D59FB",
+                            "justifyContent": "center",
+                            "marginVertical": 15,
+                            "opacity": 1,
+                            "paddingVertical": 10,
+                            "width": 675,
+                          }
+                        }
+                        testID="logoutButton"
+                      >
+                        <Text
+                          style={
+                            {
+                              "color": "#FFF",
+                              "fontFamily": "Montserrat-Bold",
+                              "fontSize": 18,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#FFF",
+                                "fontFamily": "Montserrat-Regular",
+                                "fontSize": 18,
+                              }
+                            }
+                          >
+                            Cerrar sesión
+                          </Text>
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </RNSScreen>
+            </RNSScreenNavigationContainer>
+            <View
+              collapsable={false}
+              onLayout={[Function]}
+              pointerEvents="auto"
+              style={
+                {
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(216, 216, 216)",
+                  "borderTopWidth": 0.5,
+                  "bottom": 0,
+                  "elevation": 8,
+                  "end": 0,
+                  "height": 49,
+                  "paddingBottom": 0,
+                  "paddingHorizontal": 0,
+                  "paddingTop": 0,
+                  "position": undefined,
+                  "start": 0,
+                  "transform": [
+                    {
+                      "translateY": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <View
+                role="tablist"
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "borderRadius": 0,
+                        "overflow": "visible",
+                      },
+                      [
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityLabel="Inicio, tab, 1 of 2"
+                    accessibilityLargeContentTitle="Inicio"
+                    accessibilityShowsLargeContentViewer={true}
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": true,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    href="/HomeStack/Home"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    role="button"
+                    style={
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFF",
+                        "borderRadius": 0,
+                        "cursor": "pointer",
+                        "flex": 1,
+                        "flexDirection": "column",
+                        "justifyContent": "flex-start",
+                        "opacity": 1,
+                        "padding": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 28,
+                            "width": 31,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "alignSelf": "center",
+                              "height": "100%",
+                              "justifyContent": "center",
+                              "position": "absolute",
+                              "width": "100%",
+                            },
+                            {
+                              "minWidth": 25,
+                              "opacity": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <Icon
+                          color="#9D59FB"
+                          name="home"
+                          size={25}
+                        />
+                      </View>
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "alignSelf": "center",
+                              "height": "100%",
+                              "justifyContent": "center",
+                              "position": "absolute",
+                              "width": "100%",
+                            },
+                            {
+                              "opacity": 0,
+                            },
+                          ]
+                        }
+                      >
+                        <Icon
+                          color="#646464"
+                          name="home-filled"
+                          size={25}
+                        />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "borderRadius": 0,
+                        "overflow": "visible",
+                      },
+                      [
+                        {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  <View
+                    accessibilityLabel="Acerca de, tab, 2 of 2"
+                    accessibilityLargeContentTitle="Acerca de"
+                    accessibilityShowsLargeContentViewer={true}
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": false,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    href="/HomeStack/About"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    role="button"
+                    style={
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFF",
+                        "borderRadius": 0,
+                        "cursor": "pointer",
+                        "flex": 1,
+                        "flexDirection": "column",
+                        "justifyContent": "flex-start",
+                        "opacity": 1,
+                        "padding": 5,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 28,
+                            "width": 31,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "alignSelf": "center",
+                              "height": "100%",
+                              "justifyContent": "center",
+                              "position": "absolute",
+                              "width": "100%",
+                            },
+                            {
+                              "minWidth": 25,
+                              "opacity": 0,
+                            },
+                          ]
+                        }
+                      >
+                        <Icon
+                          color="#9D59FB"
+                          name="help"
+                          size={25}
+                        />
+                      </View>
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "alignSelf": "center",
+                              "height": "100%",
+                              "justifyContent": "center",
+                              "position": "absolute",
+                              "width": "100%",
+                            },
+                            {
+                              "opacity": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <Icon
+                          color="#646464"
+                          name="help-outline"
+                          size={25}
+                        />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNSScreenContentWrapper>
+        <RNSScreenStackHeaderConfig
+          backButtonInCustomView={false}
+          backTitleFontFamily="System"
+          backTitleVisible={true}
+          backgroundColor="rgb(255, 255, 255)"
+          color="rgb(0, 122, 255)"
+          direction="ltr"
+          disableBackButtonMenu={false}
+          hidden={true}
+          hideBackButton={false}
+          largeTitleFontFamily="System"
+          largeTitleFontWeight="700"
+          largeTitleHideShadow={false}
+          pointerEvents="box-none"
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+          title="HomeStack"
+          titleColor="rgb(28, 28, 30)"
+          titleFontFamily="System"
+          titleFontWeight="600"
+          topInsetEnabled={false}
+          translucent={false}
+        />
+      </RNSScreen>
+    </RNSScreenStack>
+  </RNCSafeAreaProvider>,
+  <RCTSafeAreaView
+    style={
+      {
+        "backgroundColor": "#FFF",
+        "flex": 0,
+      }
+    }
+  />,
+]
+`;
